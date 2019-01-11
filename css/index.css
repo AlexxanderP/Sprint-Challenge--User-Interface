@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* My Code Starts Here */
+/*------------------- My Code Starts Here -------------------*/
 
 header nav a{
     display: inline-block;
@@ -280,3 +280,51 @@ header img{
     align-items: center;
     justify-content: center;
 }
+
+
+/* ------- Code for the About Page ----------- */
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    width: 860px;
+}
+
+.about-me-highrise-img{
+    display: inline-block;
+    width: 860px;
+    height: 160px;
+    margin: 10px 33%;
+    padding-left: 39px;
+}
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 33%;
+    border: 1px solid black;
+    width: 880px;
+}
+
+.about-me{
+    display: flex;
+    border: 1px solid green;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.strategy-how{
+display: flex;
+border: 1px solid blue;
+
+    
+}
+
+.places-collaboration{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
