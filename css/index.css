@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -143,4 +143,31 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My Code Starts Here */
+
+header nav a{
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    padding: 10px;
+
+    border: 1px solid black;
+}
+header {
+    display: flex;
+   border: 1px solid black;
+   justify-content: center;
+   padding: 20px;
+   margin: 0 auto;
+
+}
+
+.highway-img{
+    display: inline-block;
+    width: 800px;
+    height: 100px;
+    margin: 10px 33%;
+    border: 1px solid red;
 }
